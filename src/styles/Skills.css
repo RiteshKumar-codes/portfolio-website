@@ -1,0 +1,23 @@
+.skills{
+    padding: 80px 10%;
+    text-align: center;
+}
+.skills h2{
+    margin-bottom: 40px;
+}
+.skills-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.skill-card{
+    background: #111827;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+.skill-card:hover{
+    transform: translateY(-5px);
+}
