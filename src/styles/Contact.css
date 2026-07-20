@@ -1,0 +1,29 @@
+.contact {
+  background: white;
+  text-align: center;
+}
+
+.contact p {
+  margin-bottom: 25px;
+}
+
+.contact-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.contact-links a {
+  background: #111827;
+  color: white;
+
+  padding: 12px 20px;
+
+  border-radius: 8px;
+
+  transition: 0.3s;
+}
+
+.contact-links a:hover {
+  transform: translateY(-5px);
+}
