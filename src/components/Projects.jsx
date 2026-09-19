@@ -19,14 +19,7 @@ const projects = [
       "https://github.com/RiteshKumar-codes"
   },
 
-  {
-    title: "Prison Management System",
-    tech: "Java | MySQL",
-    description:
-      "Database management system for prison records.",
-    github:
-      "https://github.com/RiteshKumar-codes"
-  }
+ 
 ];
 
 const Projects = () => {

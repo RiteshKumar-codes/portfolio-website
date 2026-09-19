@@ -11,7 +11,8 @@ function Hero() {
                 scalable web applications using the MERN Stack.
             </p>
             <div className="hero-buttons">
-                <a href="/resume.pdf" download>
+                <a href={`${import.meta.env.BASE_URL}resume.pdf`}
+                    download>
                     <button>Download Resume</button>
                 </a>
 
